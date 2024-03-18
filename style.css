@@ -1,9 +1,9 @@
 header {
-    background-color:rgba(0, 255, 255, 0.993);
-    color: white
+    background-color:#b4764f;
+    color: rgb(0, 0, 0)
 }.cabecalho {
-    background-color: rgb(183, 142, 236);
-    color: white;
+    background-color: #b4764f;
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -12,6 +12,6 @@ header {
 }
 
 .cabecalho-imagem{
- width: 10%,
+ width: 5%,
 
 }
