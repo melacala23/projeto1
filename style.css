@@ -1,9 +1,11 @@
-header {
-    background-color:#b4764f;
-    color: rgb(0, 0, 0)
-}.cabecalho {
-    background-color: #b4764f;
-    color: rgb(0, 0, 0);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.cabecalho{
+    background-color: #D8BFD8;
+    color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -12,6 +14,18 @@ header {
 }
 
 .cabecalho-imagem{
- width: 5%,
+ width: 1%,
 
 }
+.cabecalho
+.chocolate{
+    background-image: linear-gradient(#D8BFD8,#E6E6FA);
+    color: #696969;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24 px 0;
+
+}
+
+
