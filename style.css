@@ -3,36 +3,71 @@
     margin: 0;
     padding: 0;
 }
+ body{
+    font-family:'Poppins', sans-serif;
+
+}
 .cabecalho{
-    background-color: #D8BFD8;
-    color: white;
+    background-color: #f782bc;
+    color:black;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 24px 0;
 
 }
+.choco-div{
+    width: 35%;
+}
 
 .cabecalho-imagem{
  width: 1%,
 
 }
-.cabecalho
+.cabecalho {
+ display: flex;
+ margin: 0 0px;
+ font-size: 30px;
+}
+.choco-titulo {
+    padding: 24px 0;
+    text-decoration: none;
+    color:black;
+
+}
+.choco-texto {
+
+
+
+}
 .chocolate{
-    background-image: linear-gradient(#D8BFD8,#E6E6FA);
-    color: #696969;
+    background-image: linear-gradient(#f782bc,#e2067f);
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 24 px 0;
+    font-size: 25px;
 
 }
+.estudante{
+    padding: 24px 0;
+}
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+}
+.estudante-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
 .estudante-imagem{
-    width: 10%;
+    width: 150px;
 }
 .estudante-icone{
-    width: 3%;
+    width: 2%;
 }
+
 
     
 
