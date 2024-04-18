@@ -8,26 +8,24 @@
 
 }
 .cabecalho{
-    background-color: #f782bc;
+    background-color: #191970;
     color:black;
     display: flex;
-    justify-content: space-around;
+    justify-content: left;
     align-items: center;
-    padding: 24px 0;
-
+    padding: 24px 25;
+    display: flex;
+    margin: 0 0px;
+    font-size: 16px
 }
 .choco-div{
     width: 35%;
+    
 }
 
 .cabecalho-imagem{
  width: 1%,
 
-}
-.cabecalho {
- display: flex;
- margin: 0 0px;
- font-size: 30px;
 }
 .choco-titulo {
     padding: 24px 0;
@@ -35,18 +33,14 @@
     color:black;
 
 }
-.choco-texto {
 
-
-
-}
 .chocolate{
-    background-image: linear-gradient(#f782bc,#e2067f);
+    background-image: linear-gradient(#191970,#0000CD );
     color: black;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
-    padding: 24 px 0;
+    padding: 24px 20;
     font-size: 25px;
 
 }
@@ -55,7 +49,7 @@
 }
 .estudante-todos{
     display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-columns:10% 20% 20% 20% 20%;
 }
 .estudante-titulo{
     text-align: center;
@@ -67,6 +61,19 @@
 .estudante-icone{
     width: 2%;
 }
+.estudante-div{
+    text-align: center;
+    padding: 16px 0;
+}
+.rodape{
+    background-color: #0000CD;
+    text-align: center;
+}
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+}
+
 
 
     
