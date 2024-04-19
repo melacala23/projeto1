@@ -13,16 +13,11 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    padding: 24px 25;
+    padding: 150px 25;
     display: flex;
     margin: 0 0px;
     font-size: 16px
 }
-.choco-div{
-    width: 35%;
-    
-}
-
 .cabecalho-imagem{
  width: 1%,
 
@@ -30,19 +25,32 @@
 .choco-titulo {
     padding: 24px 0;
     text-decoration: none;
-    color:white;
+    color: white;
 
 }
-
+.choco-div{
+    width: 35%;
+    position: absolute;
+    top: 10%;
+}
 .chocolate{
     background-image: linear-gradient(#834123,#320000 );
     color: white;
     display: flex;
-    justify-content: flex;
-    align-items: center;
-    padding: 200px 250;
+    justify-content: right;
+    align-items: center ;
+    padding: 24px 155;
     font-size: 24px;
-
+}
+.sabo-titulo{
+    padding: 24px 0;
+    text-decoration: none;
+    color: beige;
+}
+.preços{
+   padding: 24px 0;
+   text-decoration: none;
+   color: #F5DEB3;
 }
 .estudante{
     padding: 24px 0;
@@ -66,7 +74,7 @@
     padding: 16px 0;
 }
 .rodape{
-    background-color: #0000CD;
+    background-color: #320000;
     text-align: center;
 }
 .rodape-imagem{
